@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "349982081993",
+    "firebase_url": "https://licenta-dc727-default-rtdb.firebaseio.com",
+    "project_id": "licenta-dc727",
+    "storage_bucket": "licenta-dc727.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349982081993:android:bf34eff38d70279d261e18",
+        "android_client_info": {
+          "package_name": "com.example.licentabuna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349982081993-2o5tf4gnkknkmua230942o5enou7rqr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRget5SfqedfsXgitc_PBH2yHH1s8qvOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349982081993-2o5tf4gnkknkmua230942o5enou7rqr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

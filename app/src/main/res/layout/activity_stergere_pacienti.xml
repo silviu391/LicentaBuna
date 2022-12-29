@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stergerePacienti"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/TextViewStergere"
+        android:layout_width="217dp"
+        android:layout_height="156dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="Stergere pacient"
+        android:textAlignment="center"
+        android:textColor="@color/RED"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stergereCodQR"
+        android:layout_alignBottom="@id/TextViewStergere"
+        android:ems="10"
+        android:layout_marginLeft="175dp"
+        android:layout_marginBottom="-180dp"
+        android:hint="ID pacient"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewStergere2"
+        android:layout_marginTop="326dp"
+        android:text="Pacientul sters este:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/scantodelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/stergereCodQR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="385dp"
+        android:layout_marginBottom="-75dp"
+        android:ems="8"
+        android:inputType="text"
+        android:text="Scan QR"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeleteitemFromDB"
+        android:layout_alignBottom="@+id/scantodelete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sterge Pacient"/>
+
+</RelativeLayout>

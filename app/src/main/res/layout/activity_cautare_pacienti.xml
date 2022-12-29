@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context=".cautarePacienti">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="245dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/roboto"
+        android:text="Cautare Pacient"
+        android:textColor="@color/RED"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/scanButtonsearch"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/ic_baseline_photo_camera_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/searchfield"
+        android:layout_width="348dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="38dp"
+        android:background="#11AA9E9E"
+        android:drawableLeft="@drawable/ic_stat_search"
+        android:ems="10"
+        android:hint="Cautare pacienti"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textColorHint="#F7F2F2"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="Cautare"
+        android:textColor="#F7F2F2"
+        app:backgroundTint="@color/RED" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>
